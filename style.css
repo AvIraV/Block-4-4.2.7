@@ -1,0 +1,108 @@
+
+.search__body {
+    margin: 0 auto;
+    background-color: #c4c4c4;
+    min-height: 763px;
+    width: 661px;
+    padding-bottom: 72px;
+}
+
+.search-box {
+    position: relative;
+    top: 62px;
+    left: 77px;
+    width: 500px;
+    height: 61px;
+    background: #FFFFFF;
+    
+}
+
+.search__input {
+    position: absolute;
+    border: none;
+    width: 500px;
+    height: 61px;
+    padding: 5px 13px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+}
+
+.repos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 77px 20px 53px 0;
+}
+
+.repo {
+    width: 500px;
+    height: 44px;
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    padding: 8px;
+    list-style-type: none;
+    
+    cursor: pointer;
+    border: 2px solid #000000;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.repo-add {
+    position: relative;
+    margin-left: 80px;
+    width: 490px;
+    height: 101px;
+    padding: 8px 16px;
+    list-style-type: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    background: #E27BEB;
+    border: 1px solid #000000;
+}
+
+.repo-close {
+    position: absolute;
+    top: 55px;
+    right: 24px;
+    cursor: pointer; 
+    width: 42px;
+    height: 38.5px;
+ 
+}
+
+.repo-close:before, .repo-close:after {
+    content: ""; 
+    position: absolute; 
+    width: 42px; 
+    height: 4px; 
+    background: #FF0000;
+}
+
+.repo-close:before {
+    transform: rotate(45deg);
+}
+.repo-close:after {
+    transform: rotate(-45deg);
+}
+
+
